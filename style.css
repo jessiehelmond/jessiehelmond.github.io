@@ -34,13 +34,15 @@ body {
 .nav .logo {
   font-size: 21px;
   letter-spacing: 0.5px;
+  flex-shrink: 0;
 }
 
 .menu {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 24px;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* HERO TEKST */
