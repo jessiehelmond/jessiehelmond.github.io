@@ -44,10 +44,9 @@ body {
   display: flex;
   gap: 24px;
   white-space: nowrap;
-  flex-shrink: 0;
-  
+  margin-left: auto;
 }
-
+  
 
 /* HERO TEKST */
 .hero-text {
