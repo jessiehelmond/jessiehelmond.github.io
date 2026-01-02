@@ -1,174 +1,36 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <title>Jessie Helmond Coaching</title>
-    <style>
-        /* Basis layout */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff8f0; /* warme lichte achtergrond */
-            color: #333;
-            line-height: 1.7;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessie Helmond</title>
 
-        a {
-            color: #f77f00; /* oranje accentkleur */
-            text-decoration: none;
-        }
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Hero sectie */
-        .hero {
-            text-align: center;
-            padding: 100px 20px;
-            background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 248, 240, 0.8)), url('hero.jpg') no-repeat center center;
-            background-size: cover;
-            color: #333;
-        }
-
-        .hero h1 {
-            font-size: 3em;
-            color: #f77f00;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 1.3em;
-            margin-bottom: 30px;
-        }
-
-        .hero .btn {
-            background-color: #f77f00;
-            color: white;
-            padding: 14px 28px;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background 0.3s ease;
-        }
-
-        .hero .btn:hover {
-            background-color: #e76f00;
-        }
-
-        /* Secties */
-        h2 {
-            color: #264653;
-            margin-top: 50px;
-            text-align: center;
-        }
-
-        p {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        /* Diensten / portfolio */
-        .diensten {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        @media(min-width: 600px) {
-            .diensten {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        .dienst {
-            background-color: #fff3e0;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            transition: transform 0.3s ease;
-        }
-
-        .dienst:hover {
-            transform: translateY(-5px);
-        }
-
-        /* Contact / footer */
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            padding: 50px 20px;
-            background-color: #fff3e0;
-            border-top: 1px solid #f1f1f1;
-        }
-
-        img {
-            max-width: 100%;
-            border-radius: 12px;
-        }
-    </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Hero -->
-    <section class="hero">
-        <h1>Jessie Helmond Coaching</h1>
-        <p>Voel je geïnspireerd, kom tot rust en ontdek je kracht</p>
-        <a href="#contact" class="btn">Plan een kennismaking</a>
-    </section>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Jessie Helmond</div>
+      <ul class="menu">
+        <li>Info & Pricing</li>
+        <li>Workshops</li>
+        <li>Testimonials</li>
+        <li>Book</li>
+      </ul>
+    </nav>
 
-    <div class="container">
-
-        <!-- Over mij -->
-        <section id="over">
-            <h2>Over mij</h2>
-            <p>Ik ben Jessie Helmond, coach met passie voor persoonlijke groei. Samen werken we aan helderheid, vertrouwen en inspiratie om je doelen te bereiken.</p>
-            <img src="mijnfoto.jpg" alt="Jessie Helmond">
-        </section>
-
-        <!-- Diensten -->
-        <section id="diensten">
-            <h2>Wat ik aanbied</h2>
-            <div class="diensten">
-                <div class="dienst">
-                    <h3>Persoonlijke coaching</h3>
-                    <p>Individuele sessies gericht op zelfontwikkeling, motivatie en balans in je leven.</p>
-                </div>
-                <div class="dienst">
-                    <h3>Loopbaan coaching</h3>
-                    <p>Ontdek je talenten, zet de volgende stap in je carrière en krijg richting en focus.</p>
-                </div>
-                <div class="dienst">
-                    <h3>Workshops</h3>
-                    <p>Kleine groep sessies waarin je praktische tools en inspiratie krijgt om direct te groeien.</p>
-                </div>
-                <div class="dienst">
-                    <h3>Online programma’s</h3>
-                    <p>Flexibele programma’s die je in je eigen tempo kunt volgen, inclusief opdrachten en begeleiding.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Wil je een gesprek plannen of heb je een vraag? Neem contact met mij op via:</p>
-            <p><a href="mailto:jessie@example.com">jessie@example.com</a></p>
-            <p>Of volg mij op <a href="https://linkedin.com">LinkedIn</a></p>
-        </section>
-
+    <div class="hero-text">
+      <h1>
+        The trip is never too hard,<br>
+        if you know you are going home.
+      </h1>
     </div>
-
-    <footer>
-        &copy; 2026 Jessie Helmond Coaching
-    </footer>
+  </header>
 
 </body>
 </html>
