@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 60px;
+  padding: 40px 48px;
   font-size: 14px;
   flex-wrap: nowrap;
 }
