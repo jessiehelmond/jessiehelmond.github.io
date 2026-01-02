@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #f6b2c8 0%,
+    #f7b08a 45%,
+    #f3a15f 100%
+  );
+  color: white;
+  position: relative;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  font-size: 14px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+/* HERO TEKST */
+.hero-text {
+  position: absolute;
+  bottom: 80px;
+  left: 60px;
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.5rem, 4vw, 4.2rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
