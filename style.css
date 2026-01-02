@@ -32,6 +32,11 @@ body {
 }
 
 .logo {
+  font-size: 50px !important;
+  background: yellow;
+}
+
+.logo {
   font-size: 21px;
   letter-spacing: 0.5px;
 }
