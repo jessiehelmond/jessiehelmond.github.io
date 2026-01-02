@@ -21,32 +21,28 @@ body {
   position: relative;
 }
 
-
-/* NAV */
+/* NAV – DEFINITIEF */
 .nav {
   display: flex;
   align-items: center;
   padding: 40px 48px;
-  font-size: 14px;
+  font-size: 13px;              /* iets kleiner = past altijd */
 }
-
-
 
 .nav .logo {
-  font-size: 21px;
+  font-size: 20px;              /* bewust net iets subtieler */
   letter-spacing: 0.5px;
-  flex-shrink: 0;
+  white-space: nowrap;
 }
-
 
 .menu {
   list-style: none;
   display: flex;
-  gap: 24px;
+  align-items: center;
+  gap: 20px;                    /* compacter */
+  margin-left: auto;            /* duwt menu naar rechts */
   white-space: nowrap;
-  margin-left: auto;
 }
-  
 
 /* HERO TEKST */
 .hero-text {
