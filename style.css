@@ -30,6 +30,11 @@ body {
   font-size: 14px;
 }
 
+.logo {
+  font-size: 21px;
+  letter-spacing: 0.5px;
+}
+
 .menu {
   list-style: none;
   display: flex;
