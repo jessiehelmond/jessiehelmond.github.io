@@ -28,9 +28,8 @@ body {
   align-items: center;
   padding: 40px 48px;
   font-size: 14px;
-  flex-wrap: nowrap;
-  overflow-x: hidden;
 }
+
 
 
 .nav .logo {
