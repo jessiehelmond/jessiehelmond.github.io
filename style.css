@@ -21,6 +21,7 @@ body {
   position: relative;
 }
 
+
 /* NAV */
 .nav {
   display: flex;
@@ -29,13 +30,16 @@ body {
   padding: 40px 48px;
   font-size: 14px;
   flex-wrap: nowrap;
+  overflow-x: hidden;
 }
+
 
 .nav .logo {
   font-size: 21px;
   letter-spacing: 0.5px;
   flex-shrink: 0;
 }
+
 
 .menu {
   list-style: none;
@@ -44,6 +48,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 
 /* HERO TEKST */
 .hero-text {
